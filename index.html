@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bob's Burgers</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Naviagtion bar -->
+    <nav class="nav">
+      <span class="nav_logo">Bob's Burgers</span>
+      <div>
+        <a href="#home" class="nav_link">Home</a>
+        <a href="#menu" class="nav_link">Menu</a>
+        <a href="#about" class="nav_link">About Us</a>
+        <button class="nav_link_button">Contact</button>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="home">
+      <h1 class="home_title">Bob's burgers</h1>
+      <p class="home_paragraph">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. At natus
+        placeat incidunt officia tenetur fugiat atque corporis saepe possimus
+        maiores?
+      </p>
+      <button class="home_button">Contact Us</button>
+    </header>
+
+    <!-- About section -->
+    <main>
+      <section id="About">
+        <img src="Assets/about-image.png" alt="" class="about_image" />
+        <div class="about_wrapper">
+          <h2 class="about_title">About us</h2>
+          <p class="about_paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            tempore unde, in fugiat, incidunt culpa quibusdam optio non eveniet
+            beatae eaque doloribus velit ipsa explicabo doloremque vel! Atque,
+            praesentium distinctio.
+          </p>
+          <button class="about_button">Learn more</button>
+        </div>
+      </section>
+
+      <!-- Menu section -->
+      <section id="menu">
+        <div class="menu_wrapper">
+          <h2 class="menu_title">Menu</h2>
+          <p class="menu_paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            veritatis commodi omnis, expedita culpa animi maiores deleniti
+            ducimus reiciendis similique distinctio maxime, aperiam id
+            laboriosam perspiciatis facilis sunt harum ex?
+          </p>
+          <button class="menu_button">Learn more</button>
+        </div>
+        <img class="menu_image" src="Assets/menu-image.png" alt="" />
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact">
+        <h2 class="contact_title">Contact us</h2>
+        <form class="contact_form">
+          <label for="name">Name</label>
+          <input type="text" id="name" class="contact_form_input" />
+          <label for="email">Email</label>
+          <input type="email" id="email" class="contact_form_input" />
+          <label for="message">Message</label>
+          <textarea id="message" class="contact_form_textarea"></textarea>
+          <button class="contact_form_button">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#Home" class="footer_link">Home</a>
+        <a href="#Menu" class="footer_link">Menu</a>
+        <a href="#Abut" class="footer_link">About</a>
+        <a href="#Contact" class="footer_link">Contact</a>
+    </footer>
+
+  </body>
+</html>
